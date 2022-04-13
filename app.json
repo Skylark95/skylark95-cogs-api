@@ -1,0 +1,6 @@
+{
+  "name": "Skylark95 Cogs API",
+  "description": "API for skylark95-cogs",
+  "repository": "https://github.com/Skylark95/skylark95-cogs-api",
+  "image": "heroku/nodejs"
+}

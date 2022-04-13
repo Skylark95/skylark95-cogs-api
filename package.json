@@ -1,0 +1,27 @@
+{
+  "name": "skylark95-cogs-api",
+  "version": "0.1.0",
+  "description": "API for skylark95-cogs",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/install.js"
+  },
+  "author": "Derek Cochran <derek@derekcochran.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-jsdoc-swagger": "^1.6.7",
+    "lunr": "^2.3.9"
+  },
+  "devDependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skylark95/skylark95-cogs-api"
+  }
+}
